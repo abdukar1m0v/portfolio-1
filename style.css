@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.img{
+  width: 100%;
+  height: 730px;
+  background: #FFEAE0;
+}
+.img-li{
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-around;
+  width: 190px;
+  list-style: none;
+}
+.img-li a{
+  text-decoration: none;
+  color: rgb(65, 65, 65);
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+.img-li a:hover{
+  color: rgb(0, 0, 0);
+}
+.img img{
+  width: 70%;
+  height: 550px;
+}
+.imleft{
+  margin-top: 80px;
+  margin-left: 360px;
+}
+.text{
+  margin-top: -450px;
+  font-size: 23px;
+  margin-left: 220px;
+  font-family: 'Vollkorn', serif;
+}
+.text p{
+  margin-left: 80px;
+  font-family: 'Martel', serif;
+}
+.s1-h1{
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #383838;
+}
+.s1-h5{
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.img-2{
+  margin-top: 70px;
+  margin-left: 640px;
+  width: 1px;
+  height: 100px;
+  background: #ffc6ac;
+}
+.card{
+  border: 5px solid #ffc6ac;
+  width: 75%;
+  margin-left: 150px;
+  text-align: center;
+}
+.card-head h1{
+  margin-top: 60px;
+  font-size: 30px;
+ font-family: 'Roboto Condensed', sans-serif; 
+}
+.card-body h3{
+  margin-top: 80px;
+}
+.card-body h4{
+  margin-top: 30px;
+}
+.img-3{
+  width: 1px;
+  height: 100px;
+  margin-left: 640px;
+  background: #ffc6ac;
+}
+.card1{
+  border: 5px solid #ffc6ac;
+  width: 50%;
+  margin-left: 330px;
+  text-align: center;
+}
+.card-head h1{
+  margin-top: 30px;
+}
+.card-head h3{
+  margin-top: 50px;
+}
+.card-head h4{
+  margin-top: 30px;
+}
+.button-w{
+  transition: 1s;
+  background: #fff0e9;
+  border: 1px solid #fff0e9;
+  margin-left: 485px;
+  width: 300px;
+  height: 50px;
+}
+.button a{
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+}
+.button-w h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: 1s;
+  margin-top: 10px;
+  color: black;
+}
+.button-w h1:hover{
+  color: white;
+}
+.button-w:hover{
+  background: #ffc6ac;
+}
+.card-3{
+  margin-left: 260px;
+  width: 60%;
+  height: 800px;
+  border: 5px solid #ffc6ac;
+}
+.card-head-3{
+  text-align: center;
+}
+.card-head-3 h1{
+  margin-top: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-head-3 p{
+  margin-top: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.br{
+  border: 1px solid black;
+  background: black;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+}
+.br i{
+  color: white;
+  margin-top: 8px;
+}
+.icons{
+  display: flex;
+  margin-left: 255px;
+}
+.icons a{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.name{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.name input{
+ 
+  font-size: 18px;
+  margin-left: 1px;
+  border: 1px solid black;
+  outline:black;
+  width: 45%;
+  height: 40px;
+}
+.tel{
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 85%;
+  height: 50px;
+}
+textarea{
+  font-size: 15px;
+  resize: none;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.input-1{
+  color: black;
+}
+.input-1:hover{
+  border: 2px solid gray;
+}
+.input-2:hover{
+  border: 2px solid red;
+}
+.tel:hover{
+  border: 2px solid gray;
+}
+.left{
+  margin-top: 10px;
+  background: black;
+  color: white;
+  font-size: 20px;
+  margin-left: 50px;
+  width: 85%;
+  height: 60px;
+}
+.up{
+  text-align: center;
+}
+.up a{
+  margin-top: 20px;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+.up h4{
+  margin-top: 20px;
+}
+.teltel:hover{
+  border: 2px solid gray;
+}
+.text span{
+  margin-left: 40px;
+}
+
+
+@media all and (max-width: 500px){
+  .img{
+    width: 100%;
+    height: 700px;
+    background: #FFEAE0;
+  }
+  .text span{
+    margin-left: 0px;
+  }
+  .img-li{
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    width: 190px;
+    list-style: none;
+  }
+  .img-li a{
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .img-li a:hover{
+    color: rgb(0, 0, 0);
+  }
+  .img img{
+    width: 70%;
+    height: 500px;
+  }
+  .imleft{
+    margin-top: 80px;
+    margin-left: 70px;
+  }
+  .text{
+    margin-top: -450px;
+    font-size: 23px;
+    margin-left: 10px;
+    font-family: 'Vollkorn', serif;
+  }
+  .text p{
+    margin-left: 80px;
+    font-family: 'Martel', serif;
+  }
+  .s1-h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #383838;
+  }
+  .s1-h5{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .img-2{
+    margin-top: 70px;
+    margin-left: 640px;
+    width: 1px;
+    height: 100px;
+    background: #ffc6ac;
+  }
+  .card{
+    border: 5px solid #ffc6ac;
+    width: 75%;
+    margin-left: 50px;
+    text-align: center;
+  }
+  .card-head h1{
+    margin-top: 60px;
+    font-size: 30px;
+   font-family: 'Roboto Condensed', sans-serif; 
+  }
+  .card-body h3{
+    margin-top: 80px;
+  }
+  .card-body h4{
+    margin-top: 30px;
+  }
+  .img-3{
+    width: 1px;
+    height: 100px;
+    margin-left: 190px;
+    background: #ffc6ac;
+  }
+  .card1{
+    border: 5px solid #ffc6ac;
+    width: 75%;
+    margin-left:50px;
+    text-align: center;
+  }
+  .card-head h1{
+    margin-top: 30px;
+  }
+  .card-head h3{
+    margin-top: 50px;
+  }
+  .card-head h4{
+    margin-top: 30px;
+  }
+  .button-w{
+    transition: 1s;
+    background: #fff0e9;
+    border: 1px solid #fff0e9;
+    margin-left: 48px;
+    width: 280px;
+    height: 50px;
+  }
+  .button a{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+  }
+  .button-w h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 1s;
+    margin-top: 10px;
+    color: black;
+  }
+  .button-w h1:hover{
+    color: white;
+  }
+  .button-w:hover{
+    background: #ffc6ac;
+  }
+  .card-3{
+    margin-left: 30px;
+    width: 75%;
+    height: 800px;
+    border: 5px solid #ffc6ac;
+  }
+  .card-head-3{
+    text-align: center;
+  }
+  .card-head-3 h1{
+    margin-top: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .card-head-3 p{
+    margin-top: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .br{
+    border: 1px solid black;
+    background: black;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+  }
+  .br i{
+    color: white;
+    margin-top: 8px;
+  }
+  .icons{
+    display: flex;
+    margin-left: 10px;
+  }
+  .icons a{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .name{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .name input{
+    font-size: 15px;
+    margin-left: -10px;
+    border: 1px solid black;
+    outline:black;
+    width: 45%;
+    height: 40px;
+  }
+  .tel{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 85%;
+    height: 50px;
+  }
+  textarea{
+    width: 200px;
+    font-size: 15px;
+    resize: none;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .input-1{
+    color: black;
+  }
+  .input-1:hover{
+    border: 2px solid gray;
+  }
+  .input-2:hover{
+    border: 2px solid red;
+  }
+  .tel:hover{
+    border: 2px solid gray;
+  }
+  .left{
+    margin-top: 10px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+    width: 85%;
+    height: 60px;
+  }
+  .up{
+    text-align: center;
+  }
+  .up a{
+    margin-top: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+  }
+  .up h4{
+    margin-top: 20px;
+  }
+  .teltel:hover{
+    border: 2px solid gray;
+  }
+}
